@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>shopinterest</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+      $(document).ready(function() {
+          $("#scroMenu").click(function(){
+            if($("#scroPan").css("display") == "none"){
+              $("#cnt_right").hide();
+              $("#scroPan").slideDown("slow");
+            } else if($("#scroPan").css("display") == "block"){
+              $("#scroPan").slideUp("slow",function(){$("#cnt_right").fadeIn("slow");})
+            }   
+          });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="scroPan">
+      <div id="scroPan_cnt">
+        <div id="shpnt_logo">
+          <img src="images/shopinterest-logo_2.png" alt="logo">
+        </div>
+        <div id="shpnt_cate">
+          <ul>
+            <li><a href="#">collectibles</a></li>
+            <li><a href="#">electronics</a></li>
+            <li><a href="#">gift</a></li>
+            <li><a href="#">home&nbsp;decor</a></li>
+            <li><a href="#">men</a></li>
+            <li><a href="#">motor</a></li>
+            <li><a href="#">jewelry</a></li>
+            <li><a href="#">sport</a></li>
+            <li><a href="#">toy</a></li>
+            <li><a href="#">women</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="scroPanBar">
+      <div id="signIn">
+        <a href="#">Sign&nbsp;in</a>
+      </div>
+      <div id="scroMenu">
+        <a href="#">shopinterest</a>
+      </div>
+    </div>
+
+    <div id="header">
+        <div id="store_logo">
+          <h1>AeReeYa</h1>
+        </div>
+        <div id="store_cate">
+          <ul>
+            <li><a href="#">All</a></li>
+            <li><a href="#">Bag</a></li>
+            <li><a href="#">Purse</a></li>
+            <li><a href="#">AeReeYa's Profile</a></li>
+          </ul>
+        </div>
+        <div id="searchBox">
+          <div id="searchInpt">
+            <input type="text" placeholder="product">
+          </div>
+          <div id="searchBtn">
+            <a class="button medium black" href="#">Search</a>
+          </div>
+        </div>
+    </div>
+
+    <div id="content">
+      <div class="wrap">
+        <div id="cnt_left">
+          <div id="slider" style="display:none">
+            <ul>
+              <li><a href="#" target="_blank"><img src="images/stores_931_1_pic.jpg"/></a></li>
+              <li><a href="#" target="_blank"><img src="images/stores_931_2_pic.jpg"/></a></li>
+              <li><a href="#" target="_blank"><img src="images/stores_931_7_pic.jpg"/></a></li>
+              <li><a href="#" target="_blank"><img src="images/stores_931_8_pic.jpg"/></a></li>
+              <li><a href="#" target="_blank"><img src="images/stores_931_9_pic.jpg"/></a></li>
+              <li><a href="#" target="_blank"><img src="images/stores_931_10_pic.jpg"/></a></li>
+            </ul>
+          </div>
+          <div id="cnt_main">
+            <div class="item">
+              <div class="itemImg"><a href="#"><img src="images/stores_931_1_pic.jpg"></a></div>
+              <div class="itemInfo">
+                <p>a&nbsp;red&nbsp;bag</p>
+                <p>¥<span>29$</span></p>
+                <a class="button red small">Add&nbsp;to&nbsp;Card</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="itemImg"><a href="#"><img src="images/stores_931_2_pic.jpg"></a></div>
+              <div class="itemInfo">
+                <p>a&nbsp;smart&nbsp;bag</p>
+                <p>¥<span>29$</span></p>
+                <a class="button red small">Add&nbsp;to&nbsp;Card</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="itemImg"><a href="#"><img src="images/stores_931_7_pic.jpg"></a></div>
+              <div class="itemInfo">
+                <p>a&nbsp;beautiful&nbsp;bag</p>
+                <p>¥<span>29$</span></p>
+                <a class="button red small">Add&nbsp;to&nbsp;Card</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="itemImg"><a href="#"><img src="images/stores_931_8_pic.jpg"></a></div>
+              <div class="itemInfo">
+                <p>a&nbsp;good&nbsp;bag</p>
+                <p>¥<span>29$</span></p>
+                <a class="button red small">Add&nbsp;to&nbsp;Card</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="itemImg"><a href="#"><img src="images/stores_931_9_pic.jpg"></a></div>
+              <div class="itemInfo">
+                <p>a&nbsp;funny&nbsp;bag</p>
+                <p>¥<span>29$</span></p>
+                <a class="button red small">Add&nbsp;to&nbsp;Card</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="itemImg"><a href="#"><img src="images/stores_931_10_pic.jpg"></a></div>
+              <div class="itemInfo">
+                <p>a&nbsp;big&nbsp;bag</p>
+                <p>¥<span>29$</span></p>
+                <a class="button red small">Add&nbsp;to&nbsp;Card</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="itemImg"><a href="#"><img src="images/stores_931_12_pic.jpg"></a></div>
+              <div class="itemInfo">
+                <p>a&nbsp;small&nbsp;bag</p>
+                <p>¥<span>29$</span></p>
+                <a class="button red small">Add&nbsp;to&nbsp;Card</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="itemImg"><a href="#"><img src="images/stores_931_13_pic.jpg"></a></div>
+              <div class="itemInfo">
+                <p>a&nbsp;new&nbsp;bag</p>
+                <p>¥<span>29$</span></p>
+                <a class="button red small">Add&nbsp;to&nbsp;Card</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="itemImg"><a href="#"><img src="images/stores_931_14_pic.jpg"></a></div>
+              <div class="itemInfo">
+                <p>a&nbsp;old&nbsp;bag</p>
+                <p>¥<span>29$</span></p>
+                <a class="button red small">Add&nbsp;to&nbsp;Card</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="itemImg"><a href="#"><img src="images/stores_931_15_pic.jpg"></a></div>
+              <div class="itemInfo">
+                <p>a&nbsp;lovely&nbsp;bag</p>
+                <p>¥<span>29$</span></p>
+                <a class="button red small">Add&nbsp;to&nbsp;Card</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="itemImg"><a href="#"><img src="images/stores_931_16_pic.jpg"></a></div>
+              <div class="itemInfo">
+                <p>a&nbsp;colorful&nbsp;bag</p>
+                <p>¥<span>29$</span></p>
+                <a class="button red small">Add&nbsp;to&nbsp;Card</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="itemImg"><a href="#"><img src="images/stores_931_17_pic.jpg"></a></div>
+              <div class="itemInfo">
+                <p>a&nbsp;expensive&nbsp;bag</p>
+                <p>¥<span>29$</span></p>
+                <a class="button red small">Add&nbsp;to&nbsp;Card</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="itemImg"><a href="#"><img src="images/stores_931_19_pic.jpg"></a></div>
+              <div class="itemInfo">
+                <p>a&nbsp;cheap&nbsp;bag</p>
+                <p>¥<span>29$</span></p>
+                <a class="button red small">Add&nbsp;to&nbsp;Card</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cnt_right">
+          <h2>Shop&nbsp;Card</h2>
+          <div id="shopCart">
+
+          </div>
+          <div id="checkOut">
+          <table>
+            <tr>
+              <td>Shipping&nbsp;&amp;&nbsp;Handing</td>
+              <td>$<span>0</span></td>
+            </tr>
+            <tr>
+              <td>Tax&nbsp;&amp;&nbsp;Service</td>
+              <td>$<span>0</span></td>
+            </tr>
+            <tr>
+              <td>Total</td>
+              <td>$<span>0</span><td>
+            </tr>
+          </table>
+          <a class="button red">Chect&nbsp;Out</a>
+          </div>
+          <div id="shopCart_ads">
+            <a href="#"><img src="images/paypa_logo.png"></a>
+            <a href="#"><img src="images/Paypal_credit_cards_accepted.gif"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="wrap">
+          <div id="footerNav">
+          <ul>
+            <li><a href="#">Create&nbsp;a&nbsp;Store</a></li>
+            <li><a href="#">How&nbsp;It&nbsp;Works</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Connect&nbsp;Us</a></li>
+            <li><a href="#">Get&nbsp;Help</a></li>
+          </ul>
+          <h2><a href="#">shopinterest</a></h2>
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Teams&nbsp;Of&nbsp;Services</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Privacy&nbsp;Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
